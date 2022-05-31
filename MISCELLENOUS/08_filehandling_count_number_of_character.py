@@ -1,0 +1,5 @@
+f=open('file2.txt')
+a=f.read()
+print(a)
+s=len(a)
+print(s)
