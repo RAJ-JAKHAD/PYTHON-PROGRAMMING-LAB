@@ -1,0 +1,13 @@
+import  numpy as np
+a=np.array(['ayushpandey','powyaynshahjahanpur'])
+b=np.array(['ayushpandey','powayanshahjahanpur'])
+c=np.char.equal(a,b)
+d=np.char.not_equal(a,b)
+e=np.char.less_equal(a,b)
+f=np.char.less(a,b)
+g=np.char.greater_equal(a,b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
